@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2</TargetFrameworks>
+		<Title>HapCss</Title>
+        <Version>1.1.0.3</Version>
+        <Copyright>OSS</Copyright>
+        <Description>HtmlAgilityPack CssSelector Migrate to NET Standard</Description>
+        <Authors>Sora</Authors>
+        <Company>Sora</Company>		
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+    </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" Version="1.6.13" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Properties\" />
+	</ItemGroup>
+</Project>
